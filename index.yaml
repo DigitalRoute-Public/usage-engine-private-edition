@@ -1,5 +1,26 @@
 apiVersion: v1
 entries:
+  usage-engine-private-edition:
+  - apiVersion: v2
+    appVersion: 2.2.0
+    created: "2022-09-28T11:20:00.043336881Z"
+    dependencies:
+    - alias: ingress-nginx-v4
+      condition: ingress-nginx-v4.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.0.17
+    - alias: mzOperator
+      condition: mzOperator.enabled
+      name: usage-engine-private-edition-operator
+      repository: https://digitalroute-public.github.io/usage-engine-private-edition/
+      version: 2.2.0
+    description: The Usage Engine Private Edition helm chart
+    digest: 94cccd250b8f909e13523c862693c5d5ce883b0ce22cb94c7171be43e20663f4
+    name: usage-engine-private-edition
+    urls:
+    - https://github.com/DigitalRoute-Public/usage-engine-private-edition/releases/download/usage-engine-private-edition-2.2.0/usage-engine-private-edition-2.2.0.tgz
+    version: 2.2.0
   usage-engine-private-edition-operator:
   - apiVersion: v2
     appVersion: 2.2.0
@@ -11,4 +32,4 @@ entries:
     urls:
     - https://github.com/DigitalRoute-Public/usage-engine-private-edition/releases/download/usage-engine-private-edition-operator-2.2.0/usage-engine-private-edition-operator-2.2.0.tgz
     version: 2.2.0
-generated: "2022-09-28T11:18:35.448704276Z"
+generated: "2022-09-28T11:20:00.043350582Z"
