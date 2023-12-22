@@ -273,6 +273,16 @@ entries:
     version: 2.2.0
   usage-engine-private-edition-operator:
   - apiVersion: v2
+    appVersion: 3.3.1
+    created: "2023-12-22T08:35:22.715204918Z"
+    description: The Usage Engine Private Edition Operator helm chart
+    digest: e48fb0fa1d9fa560b8b32bfc8000e8a02a83e363321a1f1e416fd8f7ce9ea256
+    name: usage-engine-private-edition-operator
+    type: application
+    urls:
+    - https://github.com/DigitalRoute-Public/usage-engine-private-edition/releases/download/usage-engine-private-edition-operator-3.3.1/usage-engine-private-edition-operator-3.3.1.tgz
+    version: 3.3.1
+  - apiVersion: v2
     appVersion: 3.3.0
     created: "2023-12-15T13:09:44.072393442Z"
     description: The Usage Engine Private Edition Operator helm chart
@@ -432,4 +442,4 @@ entries:
     urls:
     - https://github.com/DigitalRoute-Public/usage-engine-private-edition/releases/download/usage-engine-private-edition-operator-2.2.0/usage-engine-private-edition-operator-2.2.0.tgz
     version: 2.2.0
-generated: "2023-12-15T13:11:09.076976738Z"
+generated: "2023-12-22T08:35:22.715430021Z"
