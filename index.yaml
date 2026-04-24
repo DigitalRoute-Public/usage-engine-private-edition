@@ -32,6 +32,21 @@ entries:
     - https://github.com/DigitalRoute-Public/usage-engine-private-edition/releases/download/usage-engine-private-edition-5.2.0/usage-engine-private-edition-5.2.0.tgz
     version: 5.2.0
   - apiVersion: v2
+    appVersion: 5.1.4
+    created: "2026-04-24T13:38:05.550396212Z"
+    dependencies:
+    - alias: operator
+      condition: operator.enabled
+      name: usage-engine-private-edition-operator
+      repository: https://digitalroute-public.github.io/usage-engine-private-edition/
+      version: 5.1.4
+    description: The Usage Engine Private Edition helm chart
+    digest: e5689da23ee47f3923e03712eb90522d0f6ff152e1606d102507968eb28aa67a
+    name: usage-engine-private-edition
+    urls:
+    - https://github.com/DigitalRoute-Public/usage-engine-private-edition/releases/download/usage-engine-private-edition-5.1.4/usage-engine-private-edition-5.1.4.tgz
+    version: 5.1.4
+  - apiVersion: v2
     appVersion: 5.1.3
     created: "2026-02-06T16:01:49.932145012Z"
     dependencies:
@@ -1117,4 +1132,4 @@ entries:
     urls:
     - https://github.com/DigitalRoute-Public/usage-engine-private-edition/releases/download/usage-engine-private-edition-operator-2.2.0/usage-engine-private-edition-operator-2.2.0.tgz
     version: 2.2.0
-generated: "2026-04-24T13:36:58.897820202Z"
+generated: "2026-04-24T13:38:05.550777482Z"
